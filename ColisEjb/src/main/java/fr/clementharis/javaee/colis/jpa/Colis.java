@@ -24,10 +24,6 @@ public class Colis implements Serializable {
 	@OneToMany(mappedBy = "colis", fetch = FetchType.EAGER)
 	private List<Progression> progressions;
 
-	public Colis() {
-	    // empty constructor
-	}
-
     public Colis(float poids, float prix, String origine, String destination) {
         this.poids = poids;
         this.prix = prix;
