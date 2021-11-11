@@ -1,0 +1,11 @@
+apply plugin: 'ear'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    deploy project(path: ':ColisEjb', configuration: 'archives')
+	deploy project(path: ':ColisWeb', configuration: 'archives')
+}
+

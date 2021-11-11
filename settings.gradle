@@ -1,0 +1,9 @@
+rootProject.name = 'TP1-GestionColis'
+
+include ':ColisEjb'
+include ':ColisWeb'
+include ':ColisEar'
+
+project(':ColisEjb').projectDir = "$rootDir/ColisEjb" as File
+project(':ColisWeb').projectDir = "$rootDir/ColisWeb" as File
+project(':ColisEar').projectDir = "$rootDir/ColisEar" as File
