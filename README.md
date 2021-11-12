@@ -12,13 +12,16 @@ Ensuite connectez-vous sur :
 
 ```http://localhost:4848```
 
-**Identifiant** : admin / admin
+### Identifiant :
+
+**User Name** : _admin_<br/>
+**Password** : _glassfish_
 
 Cliquez sur Applications et déployez après compilation du projet ```gradle build``` les fichiers **EAR** et **WAR**
 
 ## Utilisation
 
-L'application se découpe en 3 onglets 
+L'application se découpe en 3 onglets
 
 - Enregistrer un colis (pour ajouter un colis)
 - Ajouter une étape à un colis (pour ajouter une étape de suivie au colis)
